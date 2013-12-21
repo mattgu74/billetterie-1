@@ -36,15 +36,7 @@ class CASUser implements UserInterface
 
     public function equals(UserInterface $user)
     {
-        if (!$user instanceof CASUser) {
-            return false;
-        }
-
         if ($this->username !== $user->getUsername()) {
-            return false;
-        }
-
-        if ($this->password !== $user->getPassword()) {
             return false;
         }
 

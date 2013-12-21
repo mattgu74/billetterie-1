@@ -4,3 +4,6 @@ parameters:
 services:
     cas_user_provider:
         class: "%cas_user_provider.class%"
+        arguments: 
+            entityManager: "@doctrine.orm.entity_manager"
+            encoderFactory: "@security.encoder_factory"

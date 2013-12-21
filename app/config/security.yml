@@ -65,7 +65,7 @@ security:
             form_login:
                 login_path: pay_utc_onyx_login_page
                 check_path: pay_utc_onyx_login_check_page
-                post_only: true
+                post_only: false
                 remember_me: true
             logout:
                 path: pay_utc_onyx_logout_page

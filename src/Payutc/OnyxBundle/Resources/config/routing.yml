@@ -14,8 +14,8 @@ pay_utc_onyx_login_page:
 
 pay_utc_onyx_login_check_page:
     pattern:  /login_check
-    requirements:
-        _method: post
+#    requirements:
+#        _method: post
 
 pay_utc_onyx_logout_page:
     pattern:  /logout
